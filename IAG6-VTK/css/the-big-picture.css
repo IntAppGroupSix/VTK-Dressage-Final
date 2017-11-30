@@ -1,0 +1,154 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body {
+    background-color: #00264d;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    min-width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.nav-bg {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-faded{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.picture-container{
+    height: 100vh;
+    width: 50%;
+    float: left;
+    position: fixed;
+}
+
+.center-img {
+    width: 100%;
+    margin-top: 15%;
+    display: inline-block;
+    float: none;
+    
+}
+
+.center-img-home {
+    width: 100%;
+    display: inline-block;
+}
+
+.contact-container{
+    padding-right: 5%;
+    width: 50%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+
+.carousel-container{
+    height: 600px;
+    width: 50%;
+    float: right;
+    position: fixed;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+  .carousel-inner img {
+      width: 100%; 
+      max-height: 600px; 
+      min-width: 200px; 
+      overflow:hidden;
+    }
+
+
+.carousel-inner{
+    height: 600px;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.home-container{
+    width: 50%;
+    float: left;
+}
+
+li{
+    float: right;
+}
+
+.about{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+form{
+    color: black;
+}
+
+.round{
+    border-radius: 10px;
+}
+
+@media (max-width: 667px) {
+    .container-fluid {
+        height: auto;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        position: relative;
+        }
+    
+    .carousel-container{
+        margin-left: none;
+    }
+    
+}
+
+.txt-font-size
+{
+    font-size:95%; 
+}
